@@ -1,0 +1,27 @@
+{
+  "includeCoAuthoredBy": false,
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ~/.claude/hooks/stop_hook.sh"
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'not implemented yet'"
+          }
+        ]
+      }
+    ]
+  }
+}
